@@ -1,0 +1,12 @@
+insert into emloyee (first_name, last_name, birth_date, rating) values ('Sam', 'Davis', '2001-01-31', '5')
+insert into contact (first_name, last_name, birth_date, rating) values ('Scott', 'Tiger', '1990-11-02', '3');
+insert into contact (first_name, last_name, birth_date, rating) values ('John', 'Smith', '1964-02-28', '2');
+insert into contact (first_name, last_name, birth_date, rating) values ('Peter', 'Jackson', '1944-1-10', '4');
+insert into contact (first_name, last_name, birth_date, rating) values ('Jacky', 'Chan', '1955-10-31', '5');
+insert into contact (first_name, last_name, birth_date, rating) values ('Susan', 'Boyle', '1970-05-06', '1');
+insert into contact (first_name, last_name, birth_date, rating) values ('Tinner', 'Turner', '1967-04-30', '2');
+insert into contact (first_name, last_name, birth_date, rating) values ('Lotus', 'Notes', '1990-02-28', '3');
+insert into contact (first_name, last_name, birth_date, rating) values ('Henry', 'Dickson', '1997-06-30', '4');
+insert into contact (first_name, last_name, birth_date, rating) values ('Sam', 'Davis', '2001-01-31', '5');
+insert into contact (first_name, last_name, birth_date, rating) values ('Max', 'Beckham', '2002-02-01', '3');
+insert into contact (first_name, last_name, birth_date, rating) values ('Paul', 'Simon', '2002-02-28', '1');

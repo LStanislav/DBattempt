@@ -20,8 +20,8 @@ public class EmployeeServiceImpl implements EmployeeService{
 
     @Override
     public Employee findById(Long Id) {
-//        return employeeRepository.findOne(Id);
-//        return employeeRepository.findById(Id);
+//        return employeeRepository.findById(Id); - тут понятно почему не работает
+//        return employeeRepository.findOne(Id); - а тут не понятно. необходимые зависимости подключил
         return null;
     }
 
@@ -32,7 +32,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 
     @Override
     public Page<Employee> findAllByPage(Pageable pageable) {
-//        ???↓ + Pageable
+//        ???↓ + Pageable - не понял, что это такое
         return employeeRepository.findAll((org.springframework.data.domain.Pageable) pageable);
     }
 }

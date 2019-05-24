@@ -18,10 +18,11 @@ public class Employee implements Serializable{
     private Calendar birthDate;
     private String nationality;
     private Integer rating;
+    private String description;
 
     @Id
     @Column(name = "ID")
-    //!!!@GeneratedValue(strategy = IDENTITY)
+    //!!!@GeneratedValue(strategy = IDENTITY) - не работает IDENTITY
     public Long getId() {return id;}
 
     public void setId(Long id) {
@@ -73,4 +74,14 @@ public class Employee implements Serializable{
     public void setRating(Integer rating) {
         this.rating = rating;
     }
+
+    @Column(name = "DESCRIPTION")
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
 }
